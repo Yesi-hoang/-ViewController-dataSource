@@ -7,25 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2172DAD1D3FAA2300FE98C8 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2172DAC1D3FAA2300FE98C8 /* DataModel.m */; };
+		E2172DB01D3FAB7D00FE98C8 /* LeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2172DAF1D3FAB7D00FE98C8 /* LeftCell.m */; };
+		E2172DB31D3FAB8B00FE98C8 /* rightTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2172DB21D3FAB8B00FE98C8 /* rightTCell.m */; };
+		E27D906C1D3FB83A007FE1DD /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E27D906B1D3FB83A007FE1DD /* ArrayDataSource.m */; };
 		E2ED6ED81D3F7D7B00E66C07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2ED6ED71D3F7D7B00E66C07 /* main.m */; };
 		E2ED6EDB1D3F7D7B00E66C07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2ED6EDA1D3F7D7B00E66C07 /* AppDelegate.m */; };
-		E2ED6EDE1D3F7D7B00E66C07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2ED6EDD1D3F7D7B00E66C07 /* ViewController.m */; };
 		E2ED6EE11D3F7D7B00E66C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2ED6EDF1D3F7D7B00E66C07 /* Main.storyboard */; };
 		E2ED6EE31D3F7D7B00E66C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2ED6EE21D3F7D7B00E66C07 /* Assets.xcassets */; };
 		E2ED6EE61D3F7D7B00E66C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2ED6EE41D3F7D7B00E66C07 /* LaunchScreen.storyboard */; };
+		E2ED6EF31D3F7E5800E66C07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2ED6EF01D3F7E5800E66C07 /* ViewController.m */; };
+		E2ED6EF61D3F7E8000E66C07 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2ED6EF51D3F7E8000E66C07 /* NormalViewController.m */; };
+		E2ED6EF91D3F7E9600E66C07 /* SeperateDataSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2ED6EF81D3F7E9600E66C07 /* SeperateDataSourceViewController.m */; };
+		E2ED6F011D3F805100E66C07 /* NSArray+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = E2ED6F001D3F805100E66C07 /* NSArray+Data.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2172DAB1D3FAA2300FE98C8 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		E2172DAC1D3FAA2300FE98C8 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		E2172DAE1D3FAB7D00FE98C8 /* LeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftCell.h; sourceTree = "<group>"; };
+		E2172DAF1D3FAB7D00FE98C8 /* LeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftCell.m; sourceTree = "<group>"; };
+		E2172DB11D3FAB8B00FE98C8 /* rightTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rightTCell.h; sourceTree = "<group>"; };
+		E2172DB21D3FAB8B00FE98C8 /* rightTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rightTCell.m; sourceTree = "<group>"; };
+		E27D906A1D3FB83A007FE1DD /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		E27D906B1D3FB83A007FE1DD /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
 		E2ED6ED31D3F7D7B00E66C07 /* 从ViewController分离dataSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "从ViewController分离dataSource.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2ED6ED71D3F7D7B00E66C07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2ED6ED91D3F7D7B00E66C07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2ED6EDA1D3F7D7B00E66C07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E2ED6EDC1D3F7D7B00E66C07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E2ED6EDD1D3F7D7B00E66C07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E2ED6EE01D3F7D7B00E66C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2ED6EE21D3F7D7B00E66C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2ED6EE51D3F7D7B00E66C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2ED6EE71D3F7D7B00E66C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2ED6EEF1D3F7E5800E66C07 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2ED6EF01D3F7E5800E66C07 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2ED6EF41D3F7E8000E66C07 /* NormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		E2ED6EF51D3F7E8000E66C07 /* NormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		E2ED6EF71D3F7E9600E66C07 /* SeperateDataSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeperateDataSourceViewController.h; sourceTree = "<group>"; };
+		E2ED6EF81D3F7E9600E66C07 /* SeperateDataSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeperateDataSourceViewController.m; sourceTree = "<group>"; };
+		E2ED6EFF1D3F805100E66C07 /* NSArray+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Data.h"; sourceTree = "<group>"; };
+		E2ED6F001D3F805100E66C07 /* NSArray+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Data.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +79,9 @@
 		E2ED6ED51D3F7D7B00E66C07 /* 从ViewController分离dataSource */ = {
 			isa = PBXGroup;
 			children = (
+				E2ED6EED1D3F7E5800E66C07 /* Classes */,
 				E2ED6ED91D3F7D7B00E66C07 /* AppDelegate.h */,
 				E2ED6EDA1D3F7D7B00E66C07 /* AppDelegate.m */,
-				E2ED6EDC1D3F7D7B00E66C07 /* ViewController.h */,
-				E2ED6EDD1D3F7D7B00E66C07 /* ViewController.m */,
 				E2ED6EDF1D3F7D7B00E66C07 /* Main.storyboard */,
 				E2ED6EE21D3F7D7B00E66C07 /* Assets.xcassets */,
 				E2ED6EE41D3F7D7B00E66C07 /* LaunchScreen.storyboard */,
@@ -77,6 +97,61 @@
 				E2ED6ED71D3F7D7B00E66C07 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2ED6EED1D3F7E5800E66C07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E2ED6EFE1D3F803400E66C07 /* Other */,
+				E2ED6EEE1D3F7E5800E66C07 /* Controller */,
+				E2ED6EF11D3F7E5800E66C07 /* Model */,
+				E2ED6EF21D3F7E5800E66C07 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E2ED6EEE1D3F7E5800E66C07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2ED6EEF1D3F7E5800E66C07 /* ViewController.h */,
+				E2ED6EF01D3F7E5800E66C07 /* ViewController.m */,
+				E2ED6EF41D3F7E8000E66C07 /* NormalViewController.h */,
+				E2ED6EF51D3F7E8000E66C07 /* NormalViewController.m */,
+				E2ED6EF71D3F7E9600E66C07 /* SeperateDataSourceViewController.h */,
+				E2ED6EF81D3F7E9600E66C07 /* SeperateDataSourceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2ED6EF11D3F7E5800E66C07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2172DAB1D3FAA2300FE98C8 /* DataModel.h */,
+				E2172DAC1D3FAA2300FE98C8 /* DataModel.m */,
+				E27D906A1D3FB83A007FE1DD /* ArrayDataSource.h */,
+				E27D906B1D3FB83A007FE1DD /* ArrayDataSource.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2ED6EF21D3F7E5800E66C07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2172DAE1D3FAB7D00FE98C8 /* LeftCell.h */,
+				E2172DAF1D3FAB7D00FE98C8 /* LeftCell.m */,
+				E2172DB11D3FAB8B00FE98C8 /* rightTCell.h */,
+				E2172DB21D3FAB8B00FE98C8 /* rightTCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2ED6EFE1D3F803400E66C07 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E2ED6EFF1D3F805100E66C07 /* NSArray+Data.h */,
+				E2ED6F001D3F805100E66C07 /* NSArray+Data.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +224,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2ED6EDE1D3F7D7B00E66C07 /* ViewController.m in Sources */,
 				E2ED6EDB1D3F7D7B00E66C07 /* AppDelegate.m in Sources */,
+				E2172DAD1D3FAA2300FE98C8 /* DataModel.m in Sources */,
+				E2ED6EF91D3F7E9600E66C07 /* SeperateDataSourceViewController.m in Sources */,
+				E2ED6EF61D3F7E8000E66C07 /* NormalViewController.m in Sources */,
+				E2ED6F011D3F805100E66C07 /* NSArray+Data.m in Sources */,
+				E2ED6EF31D3F7E5800E66C07 /* ViewController.m in Sources */,
 				E2ED6ED81D3F7D7B00E66C07 /* main.m in Sources */,
+				E2172DB01D3FAB7D00FE98C8 /* LeftCell.m in Sources */,
+				E27D906C1D3FB83A007FE1DD /* ArrayDataSource.m in Sources */,
+				E2172DB31D3FAB8B00FE98C8 /* rightTCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +384,7 @@
 				E2ED6EEC1D3F7D7B00E66C07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
